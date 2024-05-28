@@ -1,0 +1,24 @@
+GET https://harikau8aqonjscpxtwms.drops.nxtwave.tech/players/
+
+
+GET https://harikau8aqonjscpxtwms.drops.nxtwave.tech/players/3/
+
+POST https://harikau8aqonjscpxtwms.drops.nxtwave.tech/players/
+Content-Type : application/json
+
+{
+    "playerName" : "Rahul",
+    "jerseyNumber": 12,
+    "role":"batsman"
+}
+
+PUT https://harikau8aqonjscpxtwms.drops.nxtwave.tech/players/4/
+Content-Type : application/json
+
+{
+    "playerName" : "Siva",
+    "jerseynumber" : 7,
+    "role" : "batsman"
+}
+
+DELETE http://localhost:3000/players/2/
